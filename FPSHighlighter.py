@@ -17,13 +17,13 @@ def expand_ones(arr, before, after):
 
     Given an array `arr` containing zeros and ones, this function expands the ones by replacing
     the elements before and after each one with ones as well. The number of elements to replace
-    before and after each one is given by the parameters `N` and `M`, respectively.
+    before and after each one is given by the parameters `before` and `after`, respectively.
 
     """
     arr = np.array(arr)
     arr = arr == 1
 
-    # Find the indices of the zeros in the array
+    # Find the indices of the ones in the array
     before = int(before)
     after = int(after)
 
