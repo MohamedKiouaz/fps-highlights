@@ -48,9 +48,10 @@ Want to see what a highlights looks like? Check out this [video](https://streama
 
 ## Dependencies
 
-Use the following command to install the dependencies:
+Use the following command to install the dependencies (requires
+[uv](https://github.com/astral-sh/uv) from Astral):
 
-`pip install -r requirements.txt`
+`uv pip install -e .`
 
 ## Files
 
@@ -59,7 +60,7 @@ Use the following command to install the dependencies:
 - `graphs.py`: script for generating graphs
 - `apex_highlights.py`: all the functions
 - `randomize.py`: randomize the train and test sets, verify if all files can be opened with PIL (CAUTION: this will delete the trained models)
-- `requirements.txt`: list of dependencies
+- `pyproject.toml`: project configuration and dependencies
 
 ## Dataset
 
