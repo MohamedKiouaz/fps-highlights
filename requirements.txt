@@ -1,5 +1,0 @@
-numpy
-moviepy
-fastai
-loguru
-tqdm
