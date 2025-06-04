@@ -56,8 +56,8 @@ Use the following command to install the dependencies:
 
 - `main.py`: main script
 - `ml.py`: machine learning script
-- `graphs.py`: script for generating graphs
-- `apex_highlights.py`: all the functions
+- `graph.py`: script for generating graphs
+- `fps_functions.py`: all the functions
 - `randomize.py`: randomize the train and test sets, verify if all files can be opened with PIL (CAUTION: this will delete the trained models)
 - `requirements.txt`: list of dependencies
 
