@@ -2,7 +2,7 @@ import os
 import shutil
 
 import imageio
-import moviepy.editor as mp
+import moviepy as mp
 import numpy as np
 from loguru import logger as log
 from tqdm import tqdm
