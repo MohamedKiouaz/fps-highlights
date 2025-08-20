@@ -6,9 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "fps-highlights"
 version = "0.1.0"
 dependencies = [
-    "numpy",
-    "moviepy",
-    "fastai",
-    "loguru",
-    "tqdm",
+    "numpy>=2.3.2",
+    "moviepy>=2.2.1",
+    "fastai>=2.8.4",
+    "loguru>=0.7.3",
+    "tqdm>=4.67.1",
 ]
